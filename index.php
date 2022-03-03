@@ -15,7 +15,7 @@ if (isset($_SESSION['user'])) {
     <!--Favicon-->
     <link rel="icon" href="./assets/images/logo.png" type="image/gif" sizes="16x16">
     <!-- Page title -->
-    <title>Home | Contact App</title>
+    <title>Contact App</title>
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- Bootstrap CSS -->

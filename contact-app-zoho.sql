@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 02, 2022 at 04:51 PM
+-- Generation Time: Mar 03, 2022 at 06:54 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.26
 
@@ -41,7 +41,13 @@ CREATE TABLE `userContacts` (
 --
 
 INSERT INTO `userContacts` (`sno`, `userId`, `name`, `email`, `contactNo`, `datm`) VALUES
-(1, 1, 'Goteti Jayachandra Mohana L N Murthy', 'gotetijayachandra@outlook.com', 'gotetijayachandra@outlook.com', '2022-03-02 08:04:14');
+(1, 1, 'Goteti Jayachandra Mohana L N Murthy', 'gotetijayachandra@outlook.com', 'gotetijayachandra@outlook.com', '2022-03-02 08:04:14'),
+(2, 3, 'Goteti Jayachandra Mohana L N Murthy', 'nikithacarrentalagency@gmail.com', '94949494111', '2022-03-02 19:21:28'),
+(3, 3, 'Goteti Jayachandra Mohana L N Murthy', 'nikithacarrentalagency@gmail.com', '94949494111', '2022-03-02 19:25:06'),
+(4, 3, 'Goteti Jayachandra Mohana L N Murthy', 'nikithacarrentalagency@gmail.com', '94949494111', '2022-03-02 19:25:10'),
+(5, 3, 'Goteti Jayachandra Mohana L N Murthy', 'nikithacarrentalagency@gmail.com', '94949494', '2022-03-03 02:54:15'),
+(6, 3, 'Goteti Jayachandra Mohana L N Murthy', 'jayachandragoteti@gmail.com', '94949494', '2022-03-03 03:11:15'),
+(7, 3, 'zenedict-solution', 'nikithacarrentalagency@gmail.com', '94949494', '2022-03-03 03:34:25');
 
 -- --------------------------------------------------------
 
@@ -64,9 +70,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`sno`, `name`, `email`, `contactNo`, `password`, `Secret`, `datm`) VALUES
-(1, 'Goteti Jayachandra Mohana L N Murthy', 'gotetijayachandra@outlook.com', '94949494', 'ZE11**ct', 'helloajay', '2022-03-02 06:23:43'),
-(4, 'Goteti Jayachandra Mohana L N Murthy', 'gotetijayachandra@gmail.com', '94949494', 'ZE11**ct', 'helloajay', '2022-03-02 06:31:30'),
-(5, 'Goteti Jayachandra Mohana L N Murthy', 'gotetijayachandnra@gmail.com', '94949494', 'ZE11**ct', 'helloajay', '2022-03-02 06:35:51');
+(3, 'Goteti Jayachandra Mohana L N Murthy', 'jayachandragoteti@gmail.com', '9491694195 ', '$2y$10$EJxZAPS20NIlI7TiTQDTQ.E77gsmMFrzxaIjV.T7zsFh/6qtrmq5a', '$2y$10$TQy5nzuj4auJWsga2utpLuVDkXCSlP7UnJXUQFlx4Zwk78yvV8HV6', '2022-03-02 18:42:32');
 
 --
 -- Indexes for dumped tables
@@ -93,13 +97,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `userContacts`
 --
 ALTER TABLE `userContacts`
-  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
